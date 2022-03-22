@@ -1,0 +1,83 @@
+.home-banner{
+    padding: 40px 5%;
+    font-family: 'Oswald',sans-serif;
+}
+
+.banner-container{
+    display: flex;
+    padding: 0 20px;
+}
+.banner-left, .banner-right{
+    height: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    align-items: flex-end;
+    padding: 30px 20px;
+}
+.banner-left{
+    background: url(./images/bannerleft.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex:1;
+    transition: 0.4s ease-in-out;
+    margin-right: 15px;
+}
+
+.banner-right{
+    background: url(./images/bannerright.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.4s ease-in-out;
+    background-repeat: no-repeat;
+    flex: 2;
+}
+
+.banner-left h2, .banner-right h2{
+    text-transform: uppercase;
+    font-weight: 200 !important;
+}
+
+.banner-left h1, .banner-right h1{
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+.banner-left a, .banner-right a{
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    padding: 0;
+    margin-top: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900 !important;
+    transition: 0.2s ease-in-out;
+    border-bottom: 2px solid white;
+    font-size: 12px;
+}
+
+.banner-container a:hover{
+    opacity: 0.8;
+}
+
+.banner-left::after,.banner-right::after{
+    content: '';
+    width: 120px;
+    height: 130%;
+    position: absolute;
+    top: -5%;
+    left: -100%;
+    opacity: 0.5;
+    transform: skew(-20deg);
+    transition: 0.4s ease-in-out;
+    background: linear-gradient(to right, transparent, white);
+}
+
+.banner-left:hover::after{
+    left: 100%;
+}
+.banner-right:hover::after{
+    left: 100%;
+}

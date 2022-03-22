@@ -1,0 +1,57 @@
+.homebanner-wrapper{
+    background: url(./img/bg-h-b.jpg);
+    padding: 7% 10%; 
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.homebanner-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: fit-content;
+    text-align: center;
+    font-family: 'Oswald',sans-serif;
+}
+.homebanner-inner p{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 200 !important;
+}
+.homebanner-inner h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+.homebanner-inner #inputemail,.homebanner-inner #submitbtn{
+    padding: 10px 20px;
+    color: white;
+    background-color: #393E46;
+    outline: none;
+    border: 1px solid #555;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+.homebanner-inner form{
+    width: 520px;
+    display: flex;
+    margin-top: 40px;
+}
+.homebanner-inner #inputemail{
+    width: 100%;
+}
+.homebanner-inner #submitbtn{
+    padding: 10px 30px;
+    background-color: whitesmoke;
+    color: black;
+    transition: 0.2s ease-in-out;
+    border: 1px solid whitesmoke;
+}
+.homebanner-inner #submitbtn:hover{
+    opacity: 0.8;
+}
+::placeholder{
+    color: #999;
+}

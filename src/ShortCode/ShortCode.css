@@ -1,0 +1,85 @@
+.shorts-wrapper{
+    background: url(./img/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding: 10% 5%;
+    justify-content: space-between;
+    font-family: 'Oswald',sans-serif;
+    
+}
+
+
+.shorts-left, .shorts-center,.shorts-right{
+    flex: 1;
+    text-align: center;
+    position: relative;
+    color: rgb(228, 208, 161);
+
+}
+
+.shorts-left img{
+    height: 80px;
+}
+.shorts-left {
+    text-transform: uppercase;
+}
+.shorts-left p{
+    font-size: 2rem;
+    margin-top: 40px;
+    font-weight: 200 !important;
+}
+.shorts-left h3{
+    font-weight: 700 !important;
+    font-size: 2.5rem;
+}
+.shorts-left h2{
+    font-size: 3.5rem;
+    font-weight: 900 !important;
+}
+.shorts-center-inner{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.shorts-center-inner #img1, .shorts-center-inner #img2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shorts-center-inner #img1{
+    top: 40px;
+    left: 50px;
+    z-index: 11;
+}
+.shorts-center-inner #img2{
+    left: 100px;
+}
+
+.shorts-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto',sans-serif;
+}
+.shorts-right p{
+    font-size: 1.2rem;
+}
+.shorts-right button{
+    color: rgb(228, 208, 161);
+    border: 1px solid rgb(228, 208, 161);
+  background-color: #191E26;
+    padding: 10px 50px;
+    margin-top: 30px;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    border-radius: 4px;
+}
+.shorts-right button:hover{
+    background-color: rgb(228, 208, 161);
+    color: #191E26;
+    border: 1px solid rgb(228, 208, 161);
+
+}

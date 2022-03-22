@@ -1,0 +1,23 @@
+.services-wrapper{
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #131921;
+
+}
+.service-card{
+    text-align: center;
+    padding: 0 20px;
+    max-width: 250px;
+}
+.service-card h2{
+    font-family: 'Oswald',sans-serif;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 700 !important;
+}
+.service-card p{
+    font-size: 1.1rem;
+    opacity: 0.8;
+}

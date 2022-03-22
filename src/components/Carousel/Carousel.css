@@ -1,0 +1,23 @@
+.carousel-caption{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    right: 10%;
+    left: 10%;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 8%;
+}
+.carousel-item{
+    height: 100vh;
+}
+
+.carousel_btn{
+    padding: 15px 30px;
+    background-color: #8fc83e;
+    color: black;
+    font-size: 16px;
+    font-weight: lighter;
+}

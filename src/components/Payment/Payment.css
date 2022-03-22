@@ -1,0 +1,25 @@
+.payment_section{
+    display: flex;
+    padding: 20px 0;
+    margin: 0 7%;
+    border-bottom: 1px solid #aaa;
+}
+.payment_title > h3{
+    color: #8fc83e;
+    font-size: 1.2rem;
+
+}
+.payment_title{
+    margin-right: 20px;
+    flex: 0.2;
+}
+.payment_head_text{
+    text-align: center;
+    margin-top: 20px;
+}
+.payment_address,.payment_items,.payment_details{
+    flex: 0.8;
+}
+.payment_details{
+    color: white;
+}

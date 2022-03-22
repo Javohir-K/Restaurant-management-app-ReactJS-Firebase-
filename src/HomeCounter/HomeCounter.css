@@ -1,0 +1,79 @@
+.homecounter-wrapper {
+    background: url(./img/mainimg.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;
+    padding: 5% 10%;
+}
+
+.counter-inner {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.time-counter {
+    display: flex;
+}
+
+.counter-card {
+    background-color: #191E26;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    width: 70px;
+    height: 70px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 4px;
+}
+
+.counter-card h1 {
+    margin-bottom: 0;
+    font-weight: 700 !important;
+    font-size: 1.5rem;
+}
+
+.counter-card p {
+    font-family: 'Roboto', sans-serif; 
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: .7rem;
+    opacity: 0.6;
+    font-weight: bold;
+}
+.counter-bottom{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.counter-bottom p{
+    font-size: 2rem;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 200 !important;
+}
+
+.counter-bottom h2{
+    font-family: 'Oswald',sans-serif;
+    font-weight: 700 !important;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.counter-bottom a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid white ;
+    font-size: .85rem;
+    padding: 2px 0;
+    transition: 0.2s ease-in-out;
+}
+
+.counter-bottom a:hover{
+    opacity: 0.8;
+}

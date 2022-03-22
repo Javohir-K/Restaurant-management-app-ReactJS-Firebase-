@@ -1,0 +1,23 @@
+
+.slide-wrap{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1111;
+}
+
+.slide-top-button{
+    background-color: white;
+    border: none;
+    padding: 10px 12px;
+    transition: 0.2s ease-in-out;
+    border-radius: 4px;
+    /* display: none; */
+}
+.slide-top-button svg{
+    width: 20px;
+    color: black;
+}
+.slide-top-button:hover{
+    opacity: 0.7;
+}
